@@ -27,15 +27,15 @@ Développé dans le cadre du cours de Système 2 (L2 Informatique).
 ## ▶️ Lancer le projet
 
 1. **Cloner le dépôt**
-2. **Lancer le serveur** : python3 chat_killer_server.py 42042
-3. **Lancer un ou plusieurs** clients (dans différents terminaux) : python3 chat_killer_client.py 127.0.0.1 42042
+2. **Lancer le serveur** : `python3 chat_killer_server.py 42042`
+3. **Lancer un ou plusieurs** clients (dans différents terminaux) : `python3 chat_killer_client.py 127.0.0.1 42042`
 
 ---
 
 ## 📂 Fichiers principaux
 
-- chat_killer_server.py : Serveur TCP multiclient, gère les messages, commandes et modération.
-- chat_killer_client.py : Processus superviseur côté client : il lance deux terminaux (affichage et saisie), gère la communication avec le serveur et les interactions utilisateur.
+- `chat_killer_server.py` : Serveur TCP multiclient, gère les messages, commandes et modération.
+- `chat_killer_client.py` : Processus superviseur côté client : il lance deux terminaux (affichage et saisie), gère la communication avec le serveur et les interactions utilisateur.
 
 ---
 
